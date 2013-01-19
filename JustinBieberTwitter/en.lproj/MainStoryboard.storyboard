@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="10K549" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
+    <dependencies>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="YXA-yP-Zgb">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BT2-uE-gJD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="XiG-HU-ee8" customClass="TweetViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="45" sectionHeaderHeight="22" sectionFooterHeight="22" id="uGe-2O-UdL">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TweetCell" textLabel="UoI-no-VgC" detailTextLabel="re3-aQ-xf6" rowHeight="45" style="IBUITableViewCellStyleSubtitle" id="zR5-Yl-fuL">
+                                <rect key="frame" x="0.0" y="22" width="320" height="45"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" id="UoI-no-VgC">
+                                            <rect key="frame" x="10" y="2" width="38" height="22"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="re3-aQ-xf6">
+                                            <rect key="frame" x="10" y="24" width="47" height="18"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="XiG-HU-ee8" id="1mL-zm-JJh"/>
+                            <outlet property="delegate" destination="XiG-HU-ee8" id="3Kl-K9-rF5"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Tweets" id="dwQ-S5-ISR"/>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="1042" y="-24"/>
+        </scene>
+        <scene sceneID="15">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
+                <tabBarController id="4" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ZWO-Nh-8eP" kind="relationship" relationship="viewControllers" id="hlJ-b4-8My"/>
+                    </connections>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="148" y="-18"/>
+        </scene>
+        <scene sceneID="r1W-TR-Ibm">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dIa-vy-RKk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="ZWO-Nh-8eP" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Tweets" id="zyV-VP-RBx"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="TgO-VJ-6Nj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="XiG-HU-ee8" kind="relationship" relationship="rootViewController" id="rax-SZ-zsw"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="602" y="-18"/>
+        </scene>
+        <scene sceneID="tha-ED-gws">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jxk-cp-JvD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="TweetDetail" id="vCz-1j-KLk" customClass="TweetDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="w70-KS-oBN">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="messageLabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" minimumFontSize="7" id="Zz1-pP-OdO">
+                                <rect key="frame" x="20" y="20" width="280" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="userLabel" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="wcf-FO-9py">
+                                <rect key="frame" x="20" y="162" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tweet:" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="GlQ-PV-nde">
+                                <rect key="frame" x="15" y="0.0" width="285" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.31732928217807105" green="0.40206291543318995" blue="0.82065217391304346" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tweet By:" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="gfS-9x-PR3">
+                                <rect key="frame" x="20" y="133" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.31732928220000001" green="0.4020629154" blue="0.8206521739" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="messageLabel" destination="Zz1-pP-OdO" id="GPc-h6-hTH"/>
+                        <outlet property="userlabel" destination="wcf-FO-9py" id="VDP-0d-94E"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1042" y="553"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="TweetDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TweetDetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="messageLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="tweetMessageLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="tweetUserLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="userlabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="TweetViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TweetViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

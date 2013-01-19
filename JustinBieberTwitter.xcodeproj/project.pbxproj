@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A35BB06A14AECAA40006DA13 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = A35BB06914AECAA40006DA13 /* Tweet.m */; };
+		A35BB07114AED3820006DA13 /* TweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A35BB07014AED3820006DA13 /* TweetViewController.m */; };
+		A38F712314B12DE300BE5D8F /* TweetDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38F712214B12DE300BE5D8F /* TweetDetailViewController.m */; };
+		A3B48D0714AB985C00B01892 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B48D0614AB985C00B01892 /* UIKit.framework */; };
+		A3B48D0914AB985C00B01892 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B48D0814AB985C00B01892 /* Foundation.framework */; };
+		A3B48D0B14AB985C00B01892 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B48D0A14AB985C00B01892 /* CoreGraphics.framework */; };
+		A3B48D1114AB985C00B01892 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3B48D0F14AB985C00B01892 /* InfoPlist.strings */; };
+		A3B48D1314AB985C00B01892 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B48D1214AB985C00B01892 /* main.m */; };
+		A3B48D1714AB985C00B01892 /* JustinBieberTwitterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B48D1614AB985C00B01892 /* JustinBieberTwitterAppDelegate.m */; };
+		A3B48D1A14AB985C00B01892 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B48D1814AB985C00B01892 /* MainStoryboard.storyboard */; };
+		A3B48D1F14AB985C00B01892 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B48D1E14AB985C00B01892 /* first.png */; };
+		A3B48D2114AB985C00B01892 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B48D2014AB985C00B01892 /* first@2x.png */; };
+		A3C459CE14AF538F00E720C0 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C459CD14AF538F00E720C0 /* Twitter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A35BB06814AECAA40006DA13 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		A35BB06914AECAA40006DA13 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		A35BB06F14AED3820006DA13 /* TweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetViewController.h; sourceTree = "<group>"; };
+		A35BB07014AED3820006DA13 /* TweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetViewController.m; sourceTree = "<group>"; };
+		A38F712114B12DE300BE5D8F /* TweetDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetDetailViewController.h; sourceTree = "<group>"; };
+		A38F712214B12DE300BE5D8F /* TweetDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetDetailViewController.m; sourceTree = "<group>"; };
+		A3B48D0214AB985C00B01892 /* JustinBieberTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustinBieberTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B48D0614AB985C00B01892 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3B48D0814AB985C00B01892 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3B48D0A14AB985C00B01892 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3B48D0E14AB985C00B01892 /* JustinBieberTwitter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JustinBieberTwitter-Info.plist"; sourceTree = "<group>"; };
+		A3B48D1014AB985C00B01892 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3B48D1214AB985C00B01892 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3B48D1414AB985C00B01892 /* JustinBieberTwitter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JustinBieberTwitter-Prefix.pch"; sourceTree = "<group>"; };
+		A3B48D1514AB985C00B01892 /* JustinBieberTwitterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JustinBieberTwitterAppDelegate.h; sourceTree = "<group>"; };
+		A3B48D1614AB985C00B01892 /* JustinBieberTwitterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustinBieberTwitterAppDelegate.m; sourceTree = "<group>"; };
+		A3B48D1914AB985C00B01892 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A3B48D1E14AB985C00B01892 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		A3B48D2014AB985C00B01892 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		A3C459CD14AF538F00E720C0 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3B48CFF14AB985C00B01892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C459CE14AF538F00E720C0 /* Twitter.framework in Frameworks */,
+				A3B48D0714AB985C00B01892 /* UIKit.framework in Frameworks */,
+				A3B48D0914AB985C00B01892 /* Foundation.framework in Frameworks */,
+				A3B48D0B14AB985C00B01892 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3B48CF714AB985C00B01892 = {
+			isa = PBXGroup;
+			children = (
+				A3C459CD14AF538F00E720C0 /* Twitter.framework */,
+				A3B48D0C14AB985C00B01892 /* JustinBieberTwitter */,
+				A3B48D0514AB985C00B01892 /* Frameworks */,
+				A3B48D0314AB985C00B01892 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3B48D0314AB985C00B01892 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3B48D0214AB985C00B01892 /* JustinBieberTwitter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3B48D0514AB985C00B01892 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3B48D0614AB985C00B01892 /* UIKit.framework */,
+				A3B48D0814AB985C00B01892 /* Foundation.framework */,
+				A3B48D0A14AB985C00B01892 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3B48D0C14AB985C00B01892 /* JustinBieberTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				A3B48D1514AB985C00B01892 /* JustinBieberTwitterAppDelegate.h */,
+				A3B48D1614AB985C00B01892 /* JustinBieberTwitterAppDelegate.m */,
+				A3B48D1814AB985C00B01892 /* MainStoryboard.storyboard */,
+				A35BB06F14AED3820006DA13 /* TweetViewController.h */,
+				A35BB07014AED3820006DA13 /* TweetViewController.m */,
+				A38F712114B12DE300BE5D8F /* TweetDetailViewController.h */,
+				A38F712214B12DE300BE5D8F /* TweetDetailViewController.m */,
+				A35BB06814AECAA40006DA13 /* Tweet.h */,
+				A35BB06914AECAA40006DA13 /* Tweet.m */,
+				A3B48D1E14AB985C00B01892 /* first.png */,
+				A3B48D2014AB985C00B01892 /* first@2x.png */,
+				A3B48D0D14AB985C00B01892 /* Supporting Files */,
+			);
+			path = JustinBieberTwitter;
+			sourceTree = "<group>";
+		};
+		A3B48D0D14AB985C00B01892 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3B48D0E14AB985C00B01892 /* JustinBieberTwitter-Info.plist */,
+				A3B48D0F14AB985C00B01892 /* InfoPlist.strings */,
+				A3B48D1214AB985C00B01892 /* main.m */,
+				A3B48D1414AB985C00B01892 /* JustinBieberTwitter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3B48D0114AB985C00B01892 /* JustinBieberTwitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B48D2B14AB985C00B01892 /* Build configuration list for PBXNativeTarget "JustinBieberTwitter" */;
+			buildPhases = (
+				A3B48CFE14AB985C00B01892 /* Sources */,
+				A3B48CFF14AB985C00B01892 /* Frameworks */,
+				A3B48D0014AB985C00B01892 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustinBieberTwitter;
+			productName = JustinBieberTwitter;
+			productReference = A3B48D0214AB985C00B01892 /* JustinBieberTwitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3B48CF914AB985C00B01892 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "University Of Waterloo";
+			};
+			buildConfigurationList = A3B48CFC14AB985C00B01892 /* Build configuration list for PBXProject "JustinBieberTwitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3B48CF714AB985C00B01892;
+			productRefGroup = A3B48D0314AB985C00B01892 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3B48D0114AB985C00B01892 /* JustinBieberTwitter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3B48D0014AB985C00B01892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B48D1114AB985C00B01892 /* InfoPlist.strings in Resources */,
+				A3B48D1A14AB985C00B01892 /* MainStoryboard.storyboard in Resources */,
+				A3B48D1F14AB985C00B01892 /* first.png in Resources */,
+				A3B48D2114AB985C00B01892 /* first@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3B48CFE14AB985C00B01892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B48D1314AB985C00B01892 /* main.m in Sources */,
+				A3B48D1714AB985C00B01892 /* JustinBieberTwitterAppDelegate.m in Sources */,
+				A35BB06A14AECAA40006DA13 /* Tweet.m in Sources */,
+				A35BB07114AED3820006DA13 /* TweetViewController.m in Sources */,
+				A38F712314B12DE300BE5D8F /* TweetDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3B48D0F14AB985C00B01892 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B48D1014AB985C00B01892 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A3B48D1814AB985C00B01892 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B48D1914AB985C00B01892 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3B48D2914AB985C00B01892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3B48D2A14AB985C00B01892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3B48D2C14AB985C00B01892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JustinBieberTwitter/JustinBieberTwitter-Prefix.pch";
+				INFOPLIST_FILE = "JustinBieberTwitter/JustinBieberTwitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3B48D2D14AB985C00B01892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JustinBieberTwitter/JustinBieberTwitter-Prefix.pch";
+				INFOPLIST_FILE = "JustinBieberTwitter/JustinBieberTwitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3B48CFC14AB985C00B01892 /* Build configuration list for PBXProject "JustinBieberTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B48D2914AB985C00B01892 /* Debug */,
+				A3B48D2A14AB985C00B01892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B48D2B14AB985C00B01892 /* Build configuration list for PBXNativeTarget "JustinBieberTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B48D2C14AB985C00B01892 /* Debug */,
+				A3B48D2D14AB985C00B01892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3B48CF914AB985C00B01892 /* Project object */;
+}
